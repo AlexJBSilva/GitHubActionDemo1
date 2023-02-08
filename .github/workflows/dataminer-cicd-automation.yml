@@ -31,7 +31,7 @@ jobs:
       sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
     
    # Optional 0 or More CD Jobs as needed
-   CD:
+  CD:
      environment: production
      name: CD
      runs-on: ubuntu-latest
